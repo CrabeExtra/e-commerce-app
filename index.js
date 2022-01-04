@@ -8,7 +8,7 @@ const itemData = require('./data/items_data.js');
 const userData = require('./data/users_data.js');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // for storing users
 let items = [];
