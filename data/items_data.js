@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "id": "61d3bb4f33e73fd1aed9a755",
     "name": "Hebert",
@@ -340,3 +340,5 @@
     "balance": "$1,447.66"
   }
 ]
+
+module.exports = data;
